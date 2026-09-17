@@ -3,7 +3,7 @@ import connectDb from "@/config/bd";
 import { v4 as uuidv4 } from "uuid";
 import { createPayment } from "@/service/bkash";
 
-// connectDb()
+connectDb()
 
 const bkashConfig = {
     base_url: process.env.BKASH_BASE_URL!,
